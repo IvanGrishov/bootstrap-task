@@ -1,0 +1,116 @@
+body {
+  background: #F8F9FA;
+}
+
+.video__play {
+  max-width: 520px;
+  height: 308px;
+  background: #CFD4D9;
+}
+.video__play svg {
+  width: 32px;
+  height: 28px;
+}
+
+.video {
+  padding-top: 54px;
+  padding-bottom: 54px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.columns-card {
+  margin-top: 58px;
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 44px;
+}
+
+.card__text-wrapper {
+  margin-left: 16px;
+}
+
+.card-body__calendar-icon {
+  flex: 0 0 24px;
+  height: 24px;
+}
+
+.card-body__calendar-icon path {
+  width: 100%;
+  height: 100%;
+}
+
+.video_primary {
+  margin-right: 8px;
+}
+
+.columns-card .btn-primary {
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.columns-card .bi-chevron-right {
+  margin-left: 10px;
+}
+.columns-card .card-body {
+  padding: 0;
+}
+.columns-card .card {
+  border: none;
+}
+
+.pricing__text {
+  max-width: 627px;
+}
+
+.pricing {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.pricing__row {
+  max-width: 955px;
+}
+
+.pricing-card-title {
+  margin-bottom: 32px;
+}
+
+.icon-grid__container {
+  padding-bottom: 64px !important;
+  margin-bottom: 64px;
+}
+
+.icon-grid__card svg {
+  margin-top: 4px;
+  margin-right: 16px;
+}
+.icon-grid__card .icon-grid__inner {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 11px;
+  display: flex;
+  padding: 24px;
+}
+.icon-grid__card p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .video__play {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 578px) {
+  .video__play {
+    margin-top: 20px;
+  }
+
+  .columns-card .card {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
